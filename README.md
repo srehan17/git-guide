@@ -1,27 +1,34 @@
-# Git Guide
+# GIT GUIDE
 
-Initialize git repository
+# Initialize git repository
 git init
 
-Add all project files to git
+# Add all project files to git
 git add .
 
-Commit all files to git with a message
+# Commit all files to git with a message
 git commit -m "message"
 
-Push code to orgin
+# Push code to origin
 git push -u origin
 
-Create new branch
-git -b branchname
+# Create new branch
+git checkout -b branchname
 
-Checkout branch
+# See list of all branches
+git branch -a
+
+(Click 'q' to quit)
+
+# Switch to branch
 git checkout branchname
 
-Merge branchA into branchB
+# Merge branchA into branchB
 git checkout branchB
+
 git checkout branchA
+
 git merge branchB
 
-Fetch all branches from remote
+# Fetch all branches from remote
 git fetch
