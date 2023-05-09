@@ -3,17 +3,20 @@
 # Initialize git repository
 git init
 
-# Add all project files to git
-git add .
+# Add remote repository
+git remote add origin git-url
 
-# Commit all files to git with a message
-git commit -m "message"
-
-# Push code to origin
-git push -u origin
+# Push commits to remote repository
+git push -u origin main
 
 # Create new branch
 git checkout -b branchname
+
+# Add all project files to git
+git add .
+
+# Commit all files to git with a commit-message
+git commit -m "commit-message"
 
 # See list of all branches
 git branch -a
