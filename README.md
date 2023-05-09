@@ -38,3 +38,6 @@ Merge branchA into branchB
 
 Fetch all branches from remote
 > git fetch
+
+Clone repository
+> git clone git-url
