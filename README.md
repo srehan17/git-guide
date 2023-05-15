@@ -29,6 +29,9 @@ Check current branch
 Switch to branch
 > git checkout branchname
 
+Pull git branch from origin
+> git pull origin branchname
+
 Merge branchA into branchB
 > git checkout branchB
 
