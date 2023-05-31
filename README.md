@@ -6,8 +6,11 @@ Initialize git repository
 Add remote repository
 > git remote add origin git-url
 
-Push commits to remote repository
-> git push -u origin main
+Create a remote branch with the same name as the local branch and push changes to the remote branch
+> git push --set-upstream origin branchname
+OR
+> git push -u origin branchname
+(-u is just a shortcut for --set-upstream)
 
 Create new branch
 > git checkout -b branchname
@@ -44,3 +47,6 @@ Fetch all branches from remote
 
 Clone repository
 > git clone git-url
+
+Delete local git branch
+> git branch -D <branchname>
