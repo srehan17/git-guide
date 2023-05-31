@@ -49,5 +49,4 @@ Clone repository
 > git clone git-url
 
 Delete local git branch
-> git branch -D <branchname>
-  
+> git branch -D branchname 
